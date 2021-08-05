@@ -1,6 +1,6 @@
 const puppeteer = require('puppeteer')
 const axios = require('axios')
-const url = 'https://www.tesla.com/es_ES/inventory/new/m3?TRIM=LRAWD&PAINT=WHITE&INTERIOR=PREMIUM_WHITE&WHEELS=EIGHTEEN&arrangeby=plh&zip=900003&range=0'
+const url = 'https://www.tesla.com/es_ES/inventory/new/m3?TRIM=LRAWD&PAINT=WHITE&INTERIOR=PREMIUM_WHITE&WHEELS=EIGHTEEN&arrangeby=plh'
 
 async function get() {
 	const browser = await puppeteer.launch({ headless: true });
